@@ -1,7 +1,11 @@
 
 import './style.css';
 // TODO: required imports
-
+import { Countries } from './models/Countries.enum.js';
+import { Country } from './models/Country.js';
+import { IResult } from './models/IResult.js';
+import { Medals } from './models/Medals.enum.js';
+import { Sports } from './models/Sports.enum.js';
 
 const countrySelect: HTMLSelectElement = <HTMLSelectElement>(
   document.getElementById('country-slt')

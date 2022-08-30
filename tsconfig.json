@@ -1,5 +1,9 @@
 {
   "compilerOptions": {
-    "target": "esnext"
+    "target": "ES6",
+    "module": "es2015",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": false
   }
 }
