@@ -4,4 +4,6 @@ import { Medals } from './Medals.enum'
 export interface IResult {
   // Result has a sport and medal
   // TODO
+  Sport:Sports
+  Medal:Medals
 }
